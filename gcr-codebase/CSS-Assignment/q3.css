@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #172033;
+}
+
+.team-section {
+    padding: 60px 5%;
+    min-height: 100vh;
+}
+
+.team-section > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1;
+    padding: 30px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid #d4dbe5;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+
+    /* Flex makes all cards equal in height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlighted {
+    background-color: #e1f5fe;
+    border: 3px dashed #0288d1;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #172033;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #0288d1;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .team-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
