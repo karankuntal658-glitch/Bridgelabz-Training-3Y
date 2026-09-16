@@ -1,0 +1,75 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #222;
+    color: white;
+}
+
+.cheat-sheet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 40px;
+}
+
+.topic {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #aaa;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.topic:hover {
+    transform: translateY(-5px);
+    background-color: lightblue;
+}
+
+.topic h2 {
+    margin-bottom: 15px;
+}
+
+.topic p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+code {
+    display: block;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Stack topics below 700px */
+@media (max-width: 700px) {
+    .cheat-sheet {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .topic {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
