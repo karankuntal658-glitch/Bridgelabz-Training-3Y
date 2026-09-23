@@ -1,0 +1,14 @@
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+}
+
+.hero h1 {
+    color: #0d6efd;
+}
+
+footer {
+    margin-top: 0;
+}
