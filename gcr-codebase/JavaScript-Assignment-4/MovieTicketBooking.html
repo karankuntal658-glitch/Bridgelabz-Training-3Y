@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ticket Booking</title>
+</head>
+<body>
+    <h2>Movie Ticket Booking</h2>
+
+    <form id="bookingForm">
+        <input id="name" placeholder="Name" required>
+        <p id="nameError"></p>
+
+        <input id="email" type="email" placeholder="Email" required>
+        <p id="emailError"></p>
+
+        <input id="seats" type="number" placeholder="Seats (1-10)" required>
+        <p id="seatsError"></p>
+
+        <button type="submit">Book Ticket</button>
+    </form>
+
+    <div id="ticket"></div>
+
+    <script src="MovieTicketBooking.js"></script>
+</body>
+</html>

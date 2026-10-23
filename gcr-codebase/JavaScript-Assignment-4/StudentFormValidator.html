@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <style>
+        input { display: block; margin: 10px; padding: 8px; }
+        .valid { border: 2px solid green; }
+        .invalid { border: 2px solid red; }
+        span { color: red; }
+    </style>
+</head>
+<body>
+    <h2>Student Registration</h2>
+    <form id="studentForm">
+        <input id="name" placeholder="Name">
+        <span id="nameError"></span>
+
+        <input id="email" placeholder="Email">
+        <span id="emailError"></span>
+
+        <input id="phone" placeholder="Phone">
+        <span id="phoneError"></span>
+
+        <input id="password" type="password" placeholder="Password">
+        <span id="passwordError"></span>
+
+        <button type="submit">Register</button>
+        <p id="message"></p>
+    </form>
+    <script src="StudentFormValidator.js"></script>
+</body>
+</html>
