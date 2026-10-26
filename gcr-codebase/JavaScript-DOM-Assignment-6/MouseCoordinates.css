@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#mouseBox {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}

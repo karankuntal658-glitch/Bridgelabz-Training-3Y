@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Step Form</title>
+    <link rel="stylesheet" href="MultiStepForm.css">
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form id="registrationForm">
+        <div class="step">
+            <label>Name:</label>
+            <input id="name" required pattern="[A-Za-z ]+">
+        </div>
+
+        <div class="step">
+            <label>Email:</label>
+            <input id="email" type="email" required>
+        </div>
+
+        <div class="step">
+            <label>Password:</label>
+            <input id="password" type="password" minlength="6" required>
+        </div>
+
+        <p id="error"></p>
+        <button type="button" id="backButton">Back</button>
+        <button type="button" id="nextButton">Next</button>
+    </form>
+
+    <div id="summary"></div>
+
+    <script src="MultiStepForm.js"></script>
+</body>
+</html>

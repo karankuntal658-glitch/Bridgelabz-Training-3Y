@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    background: white;
+    border: 1px solid #aaa;
+}
+
+#options button {
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: left;
+    background: white;
+}
+
+#options button:hover {
+    background: #ddd;
+}
+
+.hidden {
+    display: none;
+}
