@@ -1,0 +1,58 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+/* Arrange the examples horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 60px 20px;
+}
+
+.item {
+    width: 150px;
+}
+
+.box {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #93c5fd;
+    font-weight: bold;
+
+    /* Smooth animation for transformations */
+    transition: all 0.4s ease;
+}
+
+/* Apply each transformation on hover */
+.rotate:hover {
+    transform: rotate(15deg);
+}
+
+.scale:hover {
+    transform: scale(1.2);
+}
+
+.translate:hover {
+    transform: translate(15px, -10px);
+}
+
+.skew:hover {
+    transform: skew(10deg);
+}

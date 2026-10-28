@@ -1,0 +1,72 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
+}
+
+header, footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Keep article width comfortable for reading */
+.article {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+}
+
+.article h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #1d4ed8;
+}
+
+/* Different font families and sizes */
+.intro {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.serif {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+.sans {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Custom styling for semantic text elements */
+mark {
+    background-color: #fef08a;
+    color: #854d0e;
+}
+
+strong {
+    color: #1d4ed8;
+}
+
+em {
+    color: #9333ea;
+}
+
+/* Pseudo-elements for emphasis */
+.article p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.intro::first-line {
+    color: #047857;
+}

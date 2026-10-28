@@ -1,0 +1,64 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px;
+}
+
+/* Arrange boxes horizontally using Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.box {
+    background-color: white;
+    border: 3px solid #2563eb;
+    padding: 20px;
+    transition: border-color 0.3s ease;
+}
+
+/* Different border styles */
+.solid {
+    border-style: solid;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.small-padding {
+    padding: 5px;
+}
+
+.large-padding {
+    padding: 35px;
+}
+
+/* Change border color on hover */
+.box:hover {
+    border-color: #e11d48;
+}

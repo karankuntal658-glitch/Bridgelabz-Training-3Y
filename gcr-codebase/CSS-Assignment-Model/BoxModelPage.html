@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <link rel="stylesheet" href="BoxModelPage.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Box Model</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <article class="model">
+                <div class="margin-layer">
+                    <p>Margin</p>
+
+                    <div class="border-layer">
+                        <p>Border</p>
+
+                        <div class="padding-layer">
+                            <p>Padding</p>
+
+                            <div class="content-layer">
+                                <p>Content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <section class="comparison">
+                <h2>Default Box Sizing</h2>
+                <div class="default-box">Width: 200px + padding + border</div>
+
+                <h2>Border-box Sizing</h2>
+                <div class="border-box">Total Width: 200px</div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>Understanding the CSS Box Model</p>
+    </footer>
+</body>
+</html>

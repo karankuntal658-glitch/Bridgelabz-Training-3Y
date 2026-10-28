@@ -1,0 +1,65 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+/* Center the box model demonstration */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* Different colors represent the box model layers */
+.margin-layer {
+    background-color: #fde68a;
+    outline: 2px dashed #ca8a04;
+    padding: 20px;
+}
+
+.border-layer {
+    background-color: #86efac;
+    border: 8px solid #15803d;
+    padding: 20px;
+}
+
+.padding-layer {
+    background-color: #93c5fd;
+    padding: 20px;
+}
+
+.content-layer {
+    background-color: #fca5a5;
+    padding: 20px;
+}
+
+/* Compare default content-box with border-box */
+.default-box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #2563eb;
+    background-color: #dbeafe;
+    margin: 10px auto;
+}
+
+.border-box {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #15803d;
+    box-sizing: border-box;
+    background-color: #dcfce7;
+    margin: 10px auto;
+}

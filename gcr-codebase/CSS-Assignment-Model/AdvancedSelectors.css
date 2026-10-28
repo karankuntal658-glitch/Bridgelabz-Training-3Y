@@ -1,0 +1,81 @@
+
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+header, footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.content {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Attribute selector: input with type text */
+input[type="text"] {
+    border: 2px solid #2563eb;
+}
+
+/* Attribute selector: links beginning with https */
+a[href^="https"] {
+    color: #047857;
+}
+
+/* Descendant combinator: all labels inside the form */
+form label {
+    display: block;
+    margin-top: 15px;
+}
+
+/* Child combinator: direct paragraphs inside item-list */
+.item-list > p {
+    background-color: #dbeafe;
+    padding: 10px;
+}
+
+/* Adjacent sibling combinator: paragraph immediately after h2 */
+h2 + form {
+    border: 1px solid #94a3b8;
+    padding: 15px;
+}
+
+/* General sibling combinator: paragraphs after item-list */
+.item-list ~ .message {
+    color: #7c3aed;
+}
+
+/* Pseudo-class: hover */
+a:hover {
+    color: #dc2626;
+}
+
+/* Pseudo-class: focus */
+input:focus {
+    outline: 2px solid #f59e0b;
+    background-color: #fffbeb;
+}
+
+/* Pseudo-class: nth-child */
+.item-list p:nth-child(odd) {
+    border-left: 4px solid #2563eb;
+}
+
+/* Pseudo-elements: before and after */
+h2::before {
+    content: "★ ";
+    color: #f59e0b;
+}
+
+h2::after {
+    content: " ✓";
+    color: #059669;
+}

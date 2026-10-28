@@ -1,0 +1,59 @@
+
+/* Reserve space for the fixed header and footer */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #172033;
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+/* Linear gradient section */
+.linear {
+    min-height: 250px;
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #60a5fa, #c084fc);
+}
+
+/* Radial gradient section */
+.radial {
+    min-height: 250px;
+    padding: 40px 20px;
+    text-align: center;
+    background: radial-gradient(circle, #fde68a, #fb7185);
+}
+
+/* Fixed background creates a parallax-like effect */
+.parallax {
+    min-height: 300px;
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #134e4a, #0f172a);
+    background-attachment: fixed;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #172554;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Arrange navigation links horizontally */
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid #64748b;
+    border-radius: 5px;
+
+    /* Smooth hover transition */
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #2563eb;
+    border-color: #93c5fd;
+}
+
+/* Highlight the active link */
+.navbar a.active {
+    background-color: #047857;
+    border-color: #047857;
+}
+
+/* Page content */
+main section {
+    min-height: 120px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #cbd5e1;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Stack navigation links below 700px */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar a {
+        text-align: center;
+    }
+}

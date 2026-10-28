@@ -1,0 +1,57 @@
+
+/* Page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+header, footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Keep the cards in one row when space allows */
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+/* Different shadows for each card */
+.card-one {
+    box-shadow: 0 4px 10px #94a3b8;
+}
+
+.card-two {
+    box-shadow: 0 8px 20px #64748b;
+}
+
+.card-three {
+    box-shadow: 5px 5px 0 #cbd5e1;
+}
+
+/* Add depth to headings */
+.card h2 {
+    text-shadow: 2px 2px 3px #cbd5e1;
+}
+
+/* Lift each card on hover */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px #94a3b8;
+}

@@ -1,0 +1,86 @@
+
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+header, footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Form layout and spacing */
+.form-container {
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #cbd5e1;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    font: inherit;
+}
+
+/* Change outline when an input receives focus */
+input:focus, textarea:focus {
+    outline: 3px solid #60a5fa;
+    outline-offset: 3px;
+    border-color: #2563eb;
+}
+
+/* Button styling */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Different outline styles */
+.outline-demo {
+    margin-top: 30px;
+}
+
+.outline-demo p {
+    padding: 10px;
+    background-color: #f8fafc;
+}
+
+.solid-outline {
+    outline: 2px solid #2563eb;
+}
+
+.dashed-outline {
+    outline: 2px dashed #059669;
+    outline-offset: 2px;
+}
+
+.double-outline {
+    outline: 4px double #9333ea;
+    outline-offset: 3px;
+}
