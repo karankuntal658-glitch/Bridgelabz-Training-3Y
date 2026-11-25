@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi jQuery Dashboard</title>
+</head>
+<body>
+
+    <h1>Dashboard</h1>
+
+    <div id="carousel">
+        <h2>Carousel Slider</h2>
+        <p id="slide">Slide 1</p>
+    </div>
+
+    <div id="widgets">
+        <div class="widget">Widget 1</div>
+        <div class="widget">Widget 2</div>
+        <div class="widget">Widget 3</div>
+        <div class="widget">Widget 4</div>
+        <div class="widget">Widget 5</div>
+    </div>
+
+    <button id="showModal">Show Notification</button>
+
+    <div id="modal" style="display:none;">
+        <h2>Notification</h2>
+        <p>Welcome to your dashboard!</p>
+        <button id="closeModal">Close</button>
+    </div>
+
+    <style>
+        .active {
+            background-color: lightgreen;
+        }
+
+        .widget {
+            padding: 15px;
+            margin: 5px;
+            border: 1px solid gray;
+        }
+
+        #modal {
+            padding: 20px;
+            background-color: lightblue;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        var firstJQuery = jQuery.noConflict(true);
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="dashboard.js"></script>
+
+</body>
+</html>

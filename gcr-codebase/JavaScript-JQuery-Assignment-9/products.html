@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Highlight</title>
+
+    <style>
+        .product {
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid gray;
+            width: 220px;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+        }
+
+        .selected {
+            color: red;
+            font-weight: bold;
+        }
+
+        [data-discount] {
+            border: 2px solid green;
+        }
+
+        .details {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Products</h1>
+
+    <div class="product" data-discount="20" data-stock="yes">
+        <h3>Laptop</h3>
+        <p class="details">Price: ₹50000</p>
+        <button class="favorite">♡ Favorite</button>
+    </div>
+
+    <div class="product" data-stock="yes">
+        <h3>Mobile</h3>
+        <p class="details">Price: ₹20000</p>
+        <button class="favorite">♡ Favorite</button>
+    </div>
+
+    <div class="product" data-discount="10" data-stock="no">
+        <h3>Headphones</h3>
+        <p class="details">Price: ₹2000</p>
+        <button class="favorite">♡ Favorite</button>
+    </div>
+
+    <div class="product" data-stock="yes">
+        <h3>Keyboard</h3>
+        <p class="details">Price: ₹1500</p>
+        <button class="favorite">♡ Favorite</button>
+    </div>
+
+    <div class="product" data-discount="15" data-stock="yes">
+        <h3>Mouse</h3>
+        <p class="details">Price: ₹800</p>
+        <button class="favorite">♡ Favorite</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="products.js"></script>
+
+</body>
+</html>

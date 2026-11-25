@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team Directory</title>
+
+    <style>
+        .employee {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid gray;
+        }
+
+        .highlight {
+            background-color: lightgreen;
+        }
+
+        .contact {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Team Members</h1>
+
+    <div id="team">
+
+        <div class="department">
+            <h2 class="departmentName">Development</h2>
+
+            <div class="employee manager">
+                Manager: Rahul
+                <div class="contact">Email: rahul@gmail.com</div>
+            </div>
+
+            <div class="employee">
+                Employee: Aman
+                <div class="contact">Email: aman@gmail.com</div>
+            </div>
+
+            <div class="employee">
+                Employee: Priya
+                <div class="contact">Email: priya@gmail.com</div>
+            </div>
+        </div>
+
+        <div class="department">
+            <h2 class="departmentName">Testing</h2>
+
+            <div class="employee manager">
+                Manager: Neha
+                <div class="contact">Email: neha@gmail.com</div>
+            </div>
+
+            <div class="employee">
+                Employee: Mohit
+                <div class="contact">Email: mohit@gmail.com</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <button id="randomEmployee">Random Employee</button>
+    <button id="toggleTeam">Collapse / Expand Team</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="team.js"></script>
+
+</body>
+</html>

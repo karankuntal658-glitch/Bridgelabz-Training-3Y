@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Management</title>
+
+    <style>
+        .post {
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid gray;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+        }
+
+        .tag {
+            color: blue;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Blog Management Panel</h1>
+
+    <div id="posts">
+
+        <div class="post">
+            <h3>Introduction to JavaScript</h3>
+            <p>Learn JavaScript basics.</p>
+        </div>
+
+        <div class="post">
+            <h3>Web Development Guide</h3>
+            <p>Learn HTML and CSS.</p>
+        </div>
+
+        <div class="post">
+            <h3>Python Programming</h3>
+            <p>Learn Python programming.</p>
+        </div>
+
+        <div class="post">
+            <h3>Data Science</h3>
+            <p>Explore data science.</p>
+        </div>
+
+        <div class="post">
+            <h3>Machine Learning</h3>
+            <p>Understand machine learning.</p>
+        </div>
+
+    </div>
+
+    <button id="addPost">Add New Post</button>
+    <button id="featuredPost">Prepend Featured Post</button>
+    <button id="removePost">Remove Last Post</button>
+    <button id="addTag">Add Tag</button>
+    <button id="highlightPost">Highlight Posts</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="blog.js"></script>
+
+</body>
+</html>
