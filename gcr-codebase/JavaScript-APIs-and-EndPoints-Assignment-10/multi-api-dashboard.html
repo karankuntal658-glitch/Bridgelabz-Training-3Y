@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi API Dashboard</title>
+
+    <style>
+        .skeleton {
+            background: #dddddd;
+            height: 25px;
+            margin: 10px;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0.4;
+            }
+        }
+
+        section {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dashboard</h1>
+</header>
+
+<main>
+
+    <section>
+        <h2>Users</h2>
+        <div id="users">
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Orders</h2>
+        <div id="orders">
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Products</h2>
+        <div id="products">
+            <div class="skeleton"></div>
+            <div class="skeleton"></div>
+        </div>
+    </section>
+
+    <p id="warning"></p>
+
+</main>
+
+<script src="multi-api-dashboard.js"></script>
+</body>
+</html>

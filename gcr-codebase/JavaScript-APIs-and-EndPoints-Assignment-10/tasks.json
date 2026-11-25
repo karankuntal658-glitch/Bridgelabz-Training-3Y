@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete Java Assignment",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Study JavaScript",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Read HTML Notes",
+      "priority": "low",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "Practice LeetCode",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Complete CSS Assignment",
+      "priority": "medium",
+      "completed": true
+    }
+  ]
+}

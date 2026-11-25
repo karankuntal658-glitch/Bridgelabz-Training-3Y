@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 55000,
+      "image": "https://placehold.co/100x100?text=Laptop"
+    },
+    {
+      "id": 2,
+      "name": "Mobile Phone",
+      "price": 25000,
+      "image": "https://placehold.co/100x100?text=Mobile"
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 2000,
+      "image": "https://placehold.co/100x100?text=Headphones"
+    },
+    {
+      "id": 4,
+      "name": "Keyboard",
+      "price": 1500,
+      "image": "https://placehold.co/100x100?text=Keyboard"
+    },
+    {
+      "id": 5,
+      "name": "Mouse",
+      "price": 800,
+      "image": "https://placehold.co/100x100?text=Mouse"
+    }
+  ]
+}

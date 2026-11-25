@@ -1,0 +1,46 @@
+{
+  "timetable": [
+    {
+      "id": 1,
+      "day": "Monday",
+      "subject": "Java",
+      "time": "9:00 AM - 10:00 AM",
+      "room": "Room 101"
+    },
+    {
+      "id": 2,
+      "day": "Monday",
+      "subject": "Database",
+      "time": "10:00 AM - 11:00 AM",
+      "room": "Room 102"
+    },
+    {
+      "id": 3,
+      "day": "Tuesday",
+      "subject": "JavaScript",
+      "time": "9:00 AM - 10:00 AM",
+      "room": "Room 103"
+    },
+    {
+      "id": 4,
+      "day": "Wednesday",
+      "subject": "HTML",
+      "time": "11:00 AM - 12:00 PM",
+      "room": "Room 104"
+    },
+    {
+      "id": 5,
+      "day": "Thursday",
+      "subject": "CSS",
+      "time": "10:00 AM - 11:00 AM",
+      "room": "Room 105"
+    },
+    {
+      "id": 6,
+      "day": "Friday",
+      "subject": "Computer Networks",
+      "time": "12:00 PM - 1:00 PM",
+      "room": "Room 106"
+    }
+  ]
+}

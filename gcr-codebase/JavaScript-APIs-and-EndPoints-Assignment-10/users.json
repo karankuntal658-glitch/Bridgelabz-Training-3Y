@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "email": "rahul@gmail.com",
+      "password": "rahul123"
+    },
+    {
+      "id": 2,
+      "name": "Priya Verma",
+      "email": "priya@gmail.com",
+      "password": "priya123"
+    },
+    {
+      "id": 3,
+      "name": "Aman Gupta",
+      "email": "aman@gmail.com",
+      "password": "aman123"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Singh",
+      "email": "sneha@gmail.com",
+      "password": "sneha123"
+    },
+    {
+      "id": 5,
+      "name": "Rohit Kumar",
+      "email": "rohit@gmail.com",
+      "password": "rohit123"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "users": [
+    { "id": 1, "name": "Rahul Sharma", "email": "rahul@gmail.com" },
+    { "id": 2, "name": "Priya Verma", "email": "priya@gmail.com" },
+    { "id": 3, "name": "Aman Gupta", "email": "aman@gmail.com" },
+    { "id": 4, "name": "Sneha Singh", "email": "sneha@gmail.com" },
+    { "id": 5, "name": "Rohit Kumar", "email": "rohit@gmail.com" }
+  ],
+  "orders": [
+    { "id": 1, "userId": 1, "product": "Laptop", "amount": 55000 },
+    { "id": 2, "userId": 2, "product": "Mobile", "amount": 25000 },
+    { "id": 3, "userId": 3, "product": "Headphones", "amount": 2000 },
+    { "id": 4, "userId": 4, "product": "Keyboard", "amount": 1500 },
+    { "id": 5, "userId": 5, "product": "Mouse", "amount": 800 }
+  ],
+  "products": [
+    { "id": 1, "name": "Laptop", "price": 55000 },
+    { "id": 2, "name": "Mobile", "price": 25000 },
+    { "id": 3, "name": "Headphones", "price": 2000 },
+    { "id": 4, "name": "Keyboard", "price": 1500 },
+    { "id": 5, "name": "Mouse", "price": 800 }
+  ]
+}

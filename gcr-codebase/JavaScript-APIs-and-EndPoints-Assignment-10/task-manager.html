@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Task Manager</h1>
+</header>
+
+<main>
+
+    <label for="priority">Filter by priority:</label>
+
+    <select id="priority">
+        <option value="">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+
+    <label for="completed">Filter by status:</label>
+
+    <select id="completed">
+        <option value="">All</option>
+        <option value="true">Completed</option>
+        <option value="false">Pending</option>
+    </select>
+
+    <section id="tasks"></section>
+
+</main>
+
+<script src="task-manager.js"></script>
+</body>
+</html>

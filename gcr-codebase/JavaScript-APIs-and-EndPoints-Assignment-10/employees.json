@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "department": "IT",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Priya Verma",
+      "department": "HR",
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Aman Gupta",
+      "department": "Finance",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Sneha Singh",
+      "department": "Marketing",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "Rohit Kumar",
+      "department": "IT",
+      "active": true
+    }
+  ]
+}
